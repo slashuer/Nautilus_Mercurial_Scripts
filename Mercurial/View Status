@@ -6,4 +6,4 @@ else
 while [ ! -z "$1" -a ! -d "$base/$1" ]; do shift; done
 dir="$base/$1"
 fi
-thg -R "$dir" commit
+thg -R "$dir" status
